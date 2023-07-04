@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebLanding</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/68c96041c8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md flex-content-around bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"
+            ><img
+              src="https://cdn.pixabay.com/photo/2015/05/22/19/01/business-779542_640.jpg"
+              class="imgLogo"
+              alt="Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#nosotros">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#servicios">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div
+      class="banner d-flex justify-content-center align-items-center flex-column"
+    >
+      <h2 class="text-white">Sistema de Seguridad</h2>
+      <p class="text-white">Instalación y ventas de camaras de seguridad</p>
+      <a href="https://wa.me/3489558201?text=¡Estoy+interesado!" target="_blank" class="btn btn-primary">Contactanos</a>
+    </div>
+
+    <main class="container pt-4">
+      <section class="sobre-nosotros row" id="nosotros">
+        <img
+          src="https://thumbs.dreamstime.com/b/trabajador-del-hombre-de-la-reparaci%C3%B3n-de-la-f%C3%A1brica-39171944.jpg"
+          alt="trabajando"
+          class="img-fluid col-lg-6"
+        />
+        <div class="contenido d-flex flex-column align-items-center col-lg-6">
+          <h2 class="pt-4">Sobre Nosotros</h2>
+          <p class="p-3">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et commodi
+            nihil, quo, consectetur fuga, dolorum ab dignissimos vero maiores
+            repudiandae velit quam consequatur recusandae itaque tempora
+            deserunt deleniti impedit libero!
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="servicios d-flex flex-column align-items-center pt-5"
+        id="servicios"
+      >
+        <h2 class="text-center">Nuestros Servicios</h2>
+        <div class="cards d-flex flex-wrap justify-content-center gap-3 py-5">
+          <div class="card d-flex flex-column align-items-center">
+            <img
+              src="https://fotoyvideo.top/wp-content/uploads/imagen-destacada-7.jpg"
+              alt="img1"
+              class="img-fluid"
+            />
+            <h5 class="p-3">Interior / Nocturna / Wi-Fi</h5>
+          </div>
+
+          <div class="card d-flex flex-column align-items-center">
+            <img
+              src="https://http2.mlstatic.com/camaras-seguridad-camaras-vigilancia-camara-vigilancia-D_NQ_NP_373621-MCO20814144700_072016-F.jpg"
+              alt="img1"
+              class="img-fluid"
+            />
+            <h5 class="p-3">Domo / Nocturna / Wi-Fi</h5>
+          </div>
+
+          <div class="card d-flex flex-column align-items-center">
+            <img
+              src="https://images-na.ssl-images-amazon.com/images/I/61xHQNB5XgL._SL1500_.jpg"
+              class="img-fluid"
+              alt="img1"
+            />
+            <h5 class="p-3">Exterior / Nocturna / Wi-Fi</h5>
+          </div>
+
+          <div class="card d-flex flex-column align-items-center">
+            <img
+              src="https://www.pandasecurity.com/es/mediacenter/src/uploads/2019/04/pandasecurity-camaras-seguridad-iot.jpg"
+              alt="img1"
+              class="img-fluid"
+            />
+            <h5 class="p-3">Reparación de camaras</h5>
+          </div>
+
+          <div class="card d-flex flex-column align-items-center">
+            <img
+              src="https://thumbs.dreamstime.com/b/carpintero-de-hombre-joven-trabajando-en-un-taller-el-que-trabaja-194850304.jpg"
+              alt="img1"
+              class="img-fluid"
+            />
+            <h5 class="p-3">Instalación de sistemas de seguridad</h5>
+          </div>
+
+          <div class="card d-flex flex-column align-items-center">
+            <img
+              src="https://media.istockphoto.com/photos/3d-white-character-as-worker-picture-id186428266"
+              alt="img1"
+              class="img-fluid"
+            />
+            <h5 class="p-3">Servicio 24/7</h5>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="contacto d-flex flex-column mt-1" id="contacto">
+      <h2 class="text-white align-self-center pt-5">Contactanos</h2>
+      <div class="datos-user">
+        <div class="phone d-flex flex-column align-items-center mt-5">
+          <i class="fa-sharp fa-solid fa-phone"></i>
+          <h5>Telefono</h5>
+          <p>11 5344-6542</p>
+        </div>
+        <div class="phone d-flex flex-column align-items-center mt-5">
+          <i class="fa-sharp fa-solid fa-envelope"></i>
+          <h5>Email</h5>
+          <p>shalom76@gmail.com</p>
+        </div>
+        <div class="phone d-flex flex-column align-items-center mt-5">
+          <i class="fa-sharp fa-solid fa-map-location-dot"></i>
+          <h5>Ubicación</h5>
+          <p>Moreno 354, San Isidro.</p>
+        </div>
+      </div>
+      <hr />
+      <div
+        class="redes d-flex justify-content-center align-items-center gap-5 pb-3"
+      >
+        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </section>
+
+    <div class="footer bg-dark d-flex justify-content-center py-3">
+        <p class="fs-6">
+            &copy 2022 | Sitio web creado por <span>Web Solutions</span>
+        </p>
+    </div>
+    <a href="https://wa.me/3489558201?text=¡Estoy+interesado!" target="_blank"><i class="fa-brands fa-whatsapp whatsap" style="color: #37c867;"></i></a>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
