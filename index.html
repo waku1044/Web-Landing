@@ -9,11 +9,8 @@
       rel="stylesheet"
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
-    />
-    <script
-      src="https://kit.fontawesome.com/68c96041c8.js"
-      crossorigin="anonymous"
-    ></script>
+    />    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -73,8 +70,9 @@
           src="https://thumbs.dreamstime.com/b/trabajador-del-hombre-de-la-reparaci%C3%B3n-de-la-f%C3%A1brica-39171944.jpg"
           alt="trabajando"
           class="img-fluid col-lg-6"
+          data-aos="fade-right"
         />
-        <div class="contenido d-flex flex-column align-items-center col-lg-6">
+        <div class="contenido d-flex flex-column align-items-center col-lg-6" data-aos="fade-left">
           <h2 class="pt-4">Sobre Nosotros</h2>
           <p class="p-3">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et commodi
@@ -91,7 +89,7 @@
       >
         <h2 class="text-center">Nuestros Servicios</h2>
         <div class="cards d-flex flex-wrap justify-content-center gap-3 py-5">
-          <div class="card d-flex flex-column align-items-center">
+          <div class="card d-flex flex-column align-items-center" data-aos="flip-right">
             <img
               src="https://fotoyvideo.top/wp-content/uploads/imagen-destacada-7.jpg"
               alt="img1"
@@ -100,16 +98,17 @@
             <h5 class="p-3">Interior / Nocturna / Wi-Fi</h5>
           </div>
 
-          <div class="card d-flex flex-column align-items-center">
+          <div class="card d-flex flex-column align-items-center" data-aos="flip-left">
             <img
               src="https://http2.mlstatic.com/camaras-seguridad-camaras-vigilancia-camara-vigilancia-D_NQ_NP_373621-MCO20814144700_072016-F.jpg"
               alt="img1"
               class="img-fluid"
+              
             />
             <h5 class="p-3">Domo / Nocturna / Wi-Fi</h5>
           </div>
 
-          <div class="card d-flex flex-column align-items-center">
+          <div class="card d-flex flex-column align-items-center" data-aos="flip-up">
             <img
               src="https://images-na.ssl-images-amazon.com/images/I/61xHQNB5XgL._SL1500_.jpg"
               class="img-fluid"
@@ -118,7 +117,7 @@
             <h5 class="p-3">Exterior / Nocturna / Wi-Fi</h5>
           </div>
 
-          <div class="card d-flex flex-column align-items-center">
+          <div class="card d-flex flex-column align-items-center" data-aos="flip-down">
             <img
               src="https://www.pandasecurity.com/es/mediacenter/src/uploads/2019/04/pandasecurity-camaras-seguridad-iot.jpg"
               alt="img1"
@@ -127,16 +126,17 @@
             <h5 class="p-3">Reparación de camaras</h5>
           </div>
 
-          <div class="card d-flex flex-column align-items-center">
+          <div class="card d-flex flex-column align-items-center" data-aos="flip-up">
             <img
               src="https://thumbs.dreamstime.com/b/carpintero-de-hombre-joven-trabajando-en-un-taller-el-que-trabaja-194850304.jpg"
               alt="img1"
               class="img-fluid"
+              data-aos="flip-left"
             />
             <h5 class="p-3">Instalación de sistemas de seguridad</h5>
           </div>
 
-          <div class="card d-flex flex-column align-items-center">
+          <div class="card d-flex flex-column align-items-center" data-aos="flip-right">
             <img
               src="https://media.istockphoto.com/photos/3d-white-character-as-worker-picture-id186428266"
               alt="img1"
@@ -181,11 +181,21 @@
             &copy 2022 | Sitio web creado por <span>Web Solutions</span>
         </p>
     </div>
-    <a href="https://wa.me/3489558201?text=¡Estoy+interesado!" target="_blank"><i class="fa-brands fa-whatsapp whatsap" style="color: #37c867;"></i></a>
+    <a href="https://wa.me/3489558201?text=¡Estoy+interesado!" target="_blank"><i class="fa-brands fa-whatsapp whatsap fa-bounce" style="color: #36d36a;"></i></a>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000
+      });
+    </script>
+    <script
+      src="https://kit.fontawesome.com/68c96041c8.js"
       crossorigin="anonymous"
     ></script>
   </body>
